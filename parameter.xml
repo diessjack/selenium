@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Automation Test">
+	<test name = "Smoke Testcase">
+	<parameter name = "adminUserid" value = "abcd"/>
+	<parameter name = "password" value = "testpassword"/>
+	<classes>
+	<class name = "datadriven.DependenyAnnotion"/>
+	</classes>
+	
+	</test>	
+
+</suite>
